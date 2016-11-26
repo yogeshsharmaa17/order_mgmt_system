@@ -9,7 +9,7 @@
         <span class="icon-bar" style="background-color: #013541;" 
         ></span>
       </button>
-      <a  class="navbar-brand" style="color: white;">JOB PORTAL ADMIN PANEL</a>
+      <a  class="navbar-brand" ><h4 style="color: white;">Demo : Order Management System</h4></a>
     </div>
     
   </div>

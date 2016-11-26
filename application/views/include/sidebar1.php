@@ -1,28 +1,11 @@
-<?php
- $per = $this->session->userdata('permission');
-?>
-
 <div class="list-group">
-            <a href="<?=site_url();?>index.php/rcb/index" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a>
-            <a  href="<?=site_url();?>index.php/rcb/list_job" style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-info-sign"></span> List New Job</a>
-            <a  href="<?=site_url();?>index.php/rcb/manage_job/all" style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-usd"></span> Manage Job</a>
-                 
-          </div>
-            
-            <div class="list-group">
-            <a href="<?=site_url();?>index.php/rcb/list_company"  style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-asterisk"></span> List a Company</a>
-            <a  href="<?=site_url();?>index.php/rcb/manage_company"  style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-italic"></span> Manage Companies</a>
-            <a  href="<?=site_url();?>index.php/rcb/manage_user"  style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-share"></span> Manage JobSeeker </a>            
-            
-          </div>
+            <a href="<?=site_url();?>index.php/controller_client/index" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a>
+            <a  href="<?=site_url();?>index.php/controller_client/create_order" style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-plus-sign"></span> Create Order</a>
+            <a  href="<?=site_url();?>index.php/controller_client/update_order/1" style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-edit"></span> Update Order</a>
+            <a  href="<?=site_url();?>index.php/controller_api/orders/1"  style="color:black;" class="list-group-item"><span class="badge">3</span> <span class="glyphicon glyphicon-info-sign"></span> Get Order (ID) </a>            
           
-          <div class="list-group" >
-            <a href="<?=site_url();?>index.php/rcb/list_country" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-plus-sign"></span> List Country</a>
-             <a href="<?=site_url();?>index.php/rcb/list_state" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-plus-sign"></span> List State</a>
-            <a  href="<?=site_url();?>index.php/rcb/list_city"  style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-plus-sign"></span> List City</a>
-            <a  href="<?=site_url();?>index.php/rcb/city_town"  class="list-group-item" style="color:black;" > <span class="glyphicon glyphicon-plus-sign"></span> Country/State/City</a>
+            <a href="<?=site_url();?>index.php/controller_api/search?user_id=2" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span> GET Order (User ID)</a>
+            <a href="<?=site_url();?>index.php/controller_api/today" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-info-sign"></span> GET ALL Order (Today)</a>
 </div>
-    <div class="list-group" >
-            <a href="<?=site_url();?>index.php/rcb/new_user" style="color:black;" class="list-group-item"><span class="glyphicon glyphicon-plus-sign"></span> List User</a>
-</div>
+ 
      
